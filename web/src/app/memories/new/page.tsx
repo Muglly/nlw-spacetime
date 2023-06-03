@@ -24,14 +24,14 @@ export default function NewMemory() {
 
           <label
             htmlFor="isPublic"
-            className="flex items-center gap-1.5 text-sm text-gray-200 hover:text-gray-100"
+            className="flex cursor-pointer items-center gap-1.5 text-sm text-gray-200 hover:text-gray-100"
           >
             <input
               type="checkbox"
               name="isPublic"
               id="isPublic"
               value="true"
-              className="h-4 w-4 rounded border-gray-400 bg-gray-700 text-purple-500 focus:outline-none focus:ring-0"
+              className="h-4 w-4 cursor-pointer rounded border-gray-400 bg-gray-700 text-purple-500 focus:outline-none focus:ring-0"
             />
             Tonar memória pública
           </label>
